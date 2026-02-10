@@ -1,76 +1,36 @@
-# Projeto_PUP - Frontend
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Este diretório (`frontend`) contém o frontend do Projeto_PUP, desenvolvido com [Next.js](https://nextjs.org) e inicializado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Getting Started
 
-## Sumário
-
-- [Como iniciar o projeto](#como-iniciar-o-projeto)
-- [Estrutura dos arquivos principais](#estrutura-dos-arquivos-principais)
-- [Personalizações e configurações](#personalizações-e-configurações)
-- [Fontes e estilos](#fontes-e-estilos)
-- [Links úteis](#links-úteis)
-- [Deploy](#deploy)
-
----
-
-## Como iniciar o projeto
-
-Para rodar o projeto em ambiente de desenvolvimento:
+First, run the development server:
 
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
-# ou
+# or
 pnpm dev
-# ou
+# or
 bun dev
 ```
 
-Acesse [Plante uma Planta](https://projeto-pup.vercel.app/) no navegador para visualizar.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Você pode editar a página principal no arquivo `app/page.tsx`. As alterações são atualizadas automaticamente.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Estrutura dos arquivos principais
+## Learn More
 
-- **next.config.ts:** Configurações do Next.js para o projeto.
-- **package.json:** Dependências e scripts do projeto.
-- **postcss.config.mjs:** Configurações do PostCSS, comumente usado para TailwindCSS.
-- **tailwind.config.ts:** Configuração do TailwindCSS.
-- **tsconfig.json:** Configuração do TypeScript.
-- **src/**: Diretório principal do código-fonte da aplicação (componentes, páginas, estilos etc).
+To learn more about Next.js, take a look at the following resources:
 
-## Personalizações e configurações
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- O projeto utiliza **TypeScript**.
-- Estilização baseada em **TailwindCSS**.
-- Fonte principal otimizada usando [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) com [Geist](https://vercel.com/font).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
-## Fontes e estilos
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-A configuração de fontes e o uso do TailwindCSS garantem performance e flexibilidade para customização visual.
-
----
-
-## Links úteis
-
-- [Documentação Next.js](https://nextjs.org/docs)
-- [Tutorial interativo Next.js](https://nextjs.org/learn)
-- [Repositório Next.js no GitHub](https://github.com/vercel/next.js)
-- [Documentação de deploy Next.js](https://nextjs.org/docs/app/building-your-application/deploying)
-
----
-
-## Deploy
-
-A forma mais fácil de fazer deploy deste projeto é usando a [plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app).
-
-Recomenda-se seguir a [documentação oficial de deploy do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
-
----
-
-> **Nota:** Esta documentação é baseada na estrutura de arquivos do commit [`a82ae96`](https://github.com/ClecioLira/Projeto_PUP/tree/a82ae96491542acc570eef81b87b9c58e0e6d9b5/frontend). Para detalhes completos e atualizações, consulte o repositório no GitHub.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
